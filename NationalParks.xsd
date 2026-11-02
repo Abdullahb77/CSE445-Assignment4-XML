@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:schema
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://abdullahb77.github.io/CSE445-Assignment4-XML"
+    targetNamespace="http://abdullahb77.github.io/CSE445-Assignment4-XML"
+    elementFormDefault="qualified"
+    attributeFormDefault="unqualified">
     <xsd:element name="NationalParks">
         <xsd:complexType>
             <xsd:sequence>
